@@ -34,18 +34,18 @@ nav {
     top: 0px;
 }
 
-nav #logo {
+#logo {
     padding: 0%;
     text-align: center;
     float: left;
 }
 
-nav #logo span {
+#logo span {
     font-weight: 600;
     font-size: medium;
 }
 
-nav #logo span a {
+#logo span a {
     margin: auto;
     text-decoration: none;
     color: white;
@@ -278,7 +278,7 @@ header {
     color: var(--main_color);
 }
 
-#right_bart #moreInfo_virticalSHow {
+#moreInfo_virticalSHow {
     writing-mode: vertical-lr;
     text-orientation: upright;
     position: relative;
@@ -286,7 +286,7 @@ header {
     right: -8px;
 }
 
-#right_bart #date {
+#date {
     padding-bottom: 5px;
     border-bottom: 1px solid var(--main_color);
     position: relative;
@@ -424,7 +424,7 @@ header {
     top: -2em;
 }
 
-#process_bar #left_div {
+#left_div {
     /* border: 1px solid rgb(0, 17, 255); */
     width: 30%;
     height: 100%;
@@ -466,7 +466,7 @@ header {
 
 /* --- */
 
-#process_bar #right_div {
+#right_div {
     border: 1px solid rgb(0, 255, 55);
     width: 70%;
     height: 100%;
@@ -474,19 +474,54 @@ header {
     float: right;
 }
 
-#process_bar #top_div {
-    border: 1px solid rgb(229, 255, 0);
+#top_div {
+    background-color: #ed7c206c;
     width: 100%;
-    height: 40%;
+    height: 50%;
     margin: 0;
 }
 
-#process_bar #buttom_div {
-    border: 1px solid rgb(229, 255, 0);
-    width: 100%;
-    height: 40%;
-    margin: 0;
+#top_div_left_nav {
+    background-color: #eddf20;
+    width: 35%;
+    height: 50%;
 }
+
+#top_div_right_nav {
+    background-color: #2e20ed;
+    width: 35%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+}
+
+
+/* - */
+
+#buttom_div {
+    background-color: #2034ed5d;
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    margin-bottom: 0;
+}
+
+#buttom_div_left_nav {
+    background-color: #20ed20c4;
+    width: 50%;
+    height: 100%;
+}
+
+#buttom_div_right_nav {
+    background-color: #ed20cba1;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+
+/* - */
 
 
 /* ____________________________________________________ */
