@@ -1,0 +1,492 @@
+* {
+    box-sizing: border-box;
+    /* هنا يحسب الحدود من قيمة الحجم الطبيعي اي لايتغير الحجم عند انشاءالحدود */
+    /* box-sizing: content-box; */
+    /*هنا يضيف على العرض او الحجم الموجود حجم الحدود*/
+}
+
+body {
+    margin: 0 5% 0 10%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    /* background-image: url(./image/look.jpg); */
+}
+
+:root {
+    --height: 50em;
+    --main_color: #eddf20;
+    --border: 2px solid var(--main_color);
+}
+
+
+/* --------------------------------------navigtion- */
+
+nav {
+    margin: 0%;
+    padding: 20px 0 100px 0;
+    width: 85%;
+    height: 100px;
+    z-index: 10;
+    text-align: center;
+    display: inline-block;
+    /* box-shadow: 0px 0.5px 50px #eddf20; */
+    position: absolute;
+    top: 0px;
+}
+
+nav #logo {
+    padding: 0%;
+    text-align: center;
+    float: left;
+}
+
+nav #logo span {
+    font-weight: 600;
+    font-size: medium;
+}
+
+nav #logo span a {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++ name */
+
+#aside_namebar {
+    margin-left: -140px;
+    float: left;
+    position: fixed;
+}
+
+.name_sidebar {
+    margin: 1px;
+    padding: 1px;
+    font-size: 11px;
+    font-weight: 900;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-shadow: 25px 10px 3px #eddf20;
+}
+
+#name0 {
+    margin-top: 20px;
+}
+
+#name1 {
+    margin-top: 21px;
+}
+
+#name2 {
+    margin-top: 32px;
+}
+
+#name3 {
+    margin-top: 43px;
+}
+
+#name4 {
+    margin-top: 54px;
+}
+
+#name5 {
+    margin-top: 65px;
+}
+
+#name6 {
+    margin-top: 76px;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++ name */
+
+nav #navbar {
+    float: right;
+    margin: 5px 0px;
+}
+
+#navbar ul {
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+#navbar ul li {
+    margin-top: 15px;
+}
+
+#navbar ul a {
+    margin: 10px 0px;
+    padding: 5px 30px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.5s;
+    transition: box-shadow 0.5s;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    font-weight: bold;
+    box-shadow: 10px 5px 1px #c0b631c7;
+    background-color: #eddf20;
+}
+
+
+/* ____________________________________________________ */
+
+
+/* ------------------------------------------------ sidebar- */
+
+#aside_header {
+    /* border: 2px solid var(--main_color); */
+    width: 10%;
+    height: 50em;
+    margin: 120px 0 0 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+#aside_header ul {
+    color: #ffffff;
+    font-size: small;
+    font-weight: 500;
+    list-style-type: none;
+    margin: 30px;
+    padding: 0px;
+    position: absolute;
+    top: 100px;
+}
+
+#aside_header ul li {
+    margin: 30px;
+    padding: 5px;
+    border: 1px solid #eddf20;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+    transition: box-shadow 0.s;
+}
+
+#aside_header ul li:hover {
+    font-weight: 800;
+    color: black;
+    background-color: #eddf20;
+    box-shadow: 0px 0px 20px #eddf20;
+}
+
+#aside_header h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #eddf20;
+    margin: 47px;
+    position: absolute;
+    bottom: 100px;
+}
+
+#aside_header h2 sup {
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+
+/* ____________________________________________________ */
+
+
+/* ----------------------------------------header */
+
+header {
+    /* border: 2px solid var(--main_color); */
+    width: 90%;
+    height: 50em;
+    margin: 120px 0 0 0;
+    padding: 0px;
+    float: right;
+}
+
+
+/* --- */
+
+#left_bart {
+    width: 50%;
+    height: 75%;
+    margin: 100px 0px;
+    float: left;
+    position: relative;
+}
+
+#left_bart h1 {
+    font-size: 40px;
+    color: var(--main_color);
+    margin-bottom: 5px;
+}
+
+#left_bart h2 {
+    font-size: 30px;
+    color: white;
+    margin-top: 5px;
+}
+
+#left_bart p {
+    font-size: 20px;
+    color: var(--main_color);
+}
+
+
+/* #left_bart p:hover {
+    visibility: hidden;
+} */
+
+#left_bart button {
+    font-size: medium;
+    color: var(--main_color);
+    background-color: black;
+    border: 1px solid var(--main_color);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 45px;
+    transition: box-shadow 0.5s;
+    transition: background-color 0.7;
+}
+
+#left_bart button:hover {
+    color: black;
+    font-weight: bold;
+    box-shadow: 10px 5px 1px #c0b631c7;
+    background-color: #eddf20;
+}
+
+
+/* --- */
+
+#right_bart {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#right_bart img {
+    width: 100%;
+    height: 100%;
+}
+
+#right_bart {
+    color: var(--main_color);
+}
+
+#right_bart #moreInfo_virticalSHow {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    position: relative;
+    top: -400px;
+    right: -8px;
+}
+
+#right_bart #date {
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--main_color);
+    position: relative;
+    top: -220px;
+    right: -380px;
+}
+
+
+/* ____________________________________________________ */
+
+
+/* --------------------components_section */
+
+#components_section {
+    width: 100%;
+    height: 100em;
+    position: relative;
+    top: 60em;
+}
+
+#components_section h1 {
+    width: 100%;
+    height: 1.5em;
+    font-size: 50px;
+    text-align: center;
+    margin: 0.5em 0px;
+    padding-top: 1em;
+    position: absolute;
+    top: -1em;
+}
+
+
+/* -----------components_bar */
+
+#components_bar {
+    /* border: 2px solid rgb(83, 10, 167); */
+    width: 100%;
+    height: 43em;
+    margin: 10px 0px;
+    position: absolute;
+    top: 5em;
+}
+
+#components_bar div {
+    width: 30%;
+    height: 90%;
+    margin: 1em 25px 1em 25px;
+    /* text-align: center; */
+    padding: 2em 2em 1em 2em;
+    border: 1px solid black;
+    float: left;
+    transition: border 0.7s linear;
+}
+
+#components_bar div:hover {
+    border: 1px solid var(--main_color);
+    background-color: #3b3b3a44;
+    outline: 15px solid #3b3b3a44;
+}
+
+
+/* - */
+
+#components_bar img {
+    margin: 10px 2em;
+    padding: 10px 0px 10px 110px;
+}
+
+
+/* - */
+
+#components_bar h3 {
+    width: 80%;
+    height: 2em;
+    text-align: center;
+    margin: 2em 2em 1em 2em;
+    padding: 10px 10px;
+    font-weight: bolder;
+}
+
+
+/* -- */
+
+#components_bar ul {
+    width: 80%;
+    height: 10em;
+    margin: 10px 2em 10px 2em;
+    padding: 10px 0px 10px 70px;
+}
+
+#components_bar div li {
+    margin: 20px 0px;
+    font-size: large;
+}
+
+
+/* -- */
+
+#components_bar div button {
+    width: 15em;
+    height: 3em;
+    margin: 8em 0 3em 7em;
+    font-size: small;
+    color: var(--main_color);
+    background-color: black;
+    border: 1px solid var(--main_color);
+    transition: box-shadow 0.5s;
+    transition: background-color 0.7;
+}
+
+#components_bar div button:hover {
+    color: black;
+    font-weight: bold;
+    box-shadow: 10px 5px 1px #c0b631c7;
+    background-color: #eddf20;
+}
+
+
+/* ____________________________________________________ */
+
+
+/* --------------------------------------process_bar */
+
+#process_bar {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 43em;
+    margin: 10px 0px;
+    position: absolute;
+    top: 55em;
+}
+
+#process_bar>h1 {
+    position: absolute;
+    top: -2em;
+}
+
+#process_bar #left_div {
+    /* border: 1px solid rgb(0, 17, 255); */
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    padding: 30px 20px 0 0;
+    background-image: url("./image/data-science\ mind.jpg");
+    /* opacity: 0.5; */
+    background-size: cover;
+    float: left;
+}
+
+#left_div>div {
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 50%;
+}
+
+#left_div h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#left_div p {
+    margin: 0;
+    padding: 30px 0;
+    font-weight: bolder;
+}
+
+#left_div ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 40px;
+    font-weight: bold;
+    color: var(--main_color);
+}
+
+
+/* --- */
+
+#process_bar #right_div {
+    border: 1px solid rgb(0, 255, 55);
+    width: 70%;
+    height: 100%;
+    margin: 0;
+    float: right;
+}
+
+#process_bar #top_div {
+    border: 1px solid rgb(229, 255, 0);
+    width: 100%;
+    height: 40%;
+    margin: 0;
+}
+
+#process_bar #buttom_div {
+    border: 1px solid rgb(229, 255, 0);
+    width: 100%;
+    height: 40%;
+    margin: 0;
+}
+
+
+/* ____________________________________________________ */
