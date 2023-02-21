@@ -501,6 +501,14 @@ header {
     position: absolute;
     bottom: 25px;
     right: 30px;
+    transition: text-shadow 0.2s ease;
+    transition: border 0.2s ease;
+}
+
+.link_more:hover {
+    border: 2px solid rgba(0, 0, 0, 0.37);
+    border-radius: 50px;
+    text-shadow: 0px 0px 20px var(--main_color);
 }
 
 
@@ -583,7 +591,62 @@ header {
 }
 
 
-/* . */
+/* ____________________________________________________ */
+
+
+/* ----------------------------- jobs_roles */
+
+#jobsRoles_left_arrow {
+    background-image: url("./image/icons8-left-arrow-50.png");
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 10%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#jobs_roles {
+    margin: 1000px 0 200px 0;
+    width: 100%;
+    float: left;
+}
+
+#jobsRoles_sup {
+    width: 80%;
+    margin: 0;
+}
+
+#jobs_roles>nav {
+    margin: 0;
+}
+
+#jobsRoles_right_arrow {
+    background-image: url("./image/icons8-right-arrow-50.png");
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 10%;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#jobs_roles>h2 {
+    width: 100%;
+    text-align: center;
+}
+
+#jobsRoles_title {}
+
+#jobsRoles_title h3 {}
+
+#jobsRoles_title h4 {}
+
+#jobsRoles_content {}
+
+#jobsRoles_content p {}
+
+#jobsRoles_content h3 {}
 
 
 /* ____________________________________________________ */
