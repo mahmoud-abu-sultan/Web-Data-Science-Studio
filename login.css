@@ -1,0 +1,155 @@
+body {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Courier New", Courier, monospace;
+  background: #010101 url("./image/data-science\ mind.jpg");
+
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+
+  color: white;
+}
+
+#continer {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 50px;
+  width: auto;
+  height: 56.95rem;
+  background-color: rgba(0, 0, 0, 0.596);
+}
+/* ----------------------------------------------------------------------------- */
+#login-info {
+  width: 50%;
+  height: 100%;
+  margin-left: 95px;
+  text-align: center;
+  float: left;
+}
+#login-info > h1 {
+  font-size: 80px;
+  text-shadow: 0px 0px 10px #cece18;
+}
+#login-info > p {
+  font-size: 30px;
+  padding-top: 140px;
+}
+
+/* ---------------------------------------------------------------------- */
+#login-container {
+  box-sizing: border-box;
+  width: 500px;
+  height: 550px;
+
+  margin: 5% 10% 5% 5%;
+  padding: 1px;
+  border: 20px solid #000000;
+  outline: 10px solid #2a2a2a;
+
+  box-shadow: 0px 250px 1000px #2a2a2a;
+  text-align: center;
+  background-color: #1d1d1d;
+
+  float: right;
+}
+
+#login-container > form {
+  margin: 20px 30px 10px 30px;
+  height: 85%;
+}
+#login-container > form > label {
+  font-size: larger;
+  font-weight: bold;
+  margin-left: -10px;
+  color: rgb(255, 255, 255);
+}
+
+#login-container > form > input {
+  background-color: transparent;
+
+  border: none;
+  border-bottom: 3px solid #856b16;
+  border-radius: 2px;
+  width: 90%;
+  height: 40px;
+  margin: 10px auto;
+}
+#login-container > form > input::placeholder {
+  transition: all 0.5s;
+}
+#login-container > form > input:hover::placeholder {
+  color: white;
+  text-shadow: 0px 0px 5px white;
+  font-size: larger;
+}
+#login-container > form > input:hover {
+  border-bottom: 3px solid #cece18;
+}
+
+#login-container > form > input:focus {
+  outline: none;
+  border-bottom: 3px solid #cece18;
+}
+
+#login-container > h4 {
+  margin: 10px;
+  height: 5%;
+}
+
+#forgetpass {
+  width: 100%;
+  margin-top: 0;
+}
+#forgetpass > a:hover {
+  color: #cece18;
+}
+#forgetpass > a {
+  color: #b8900f;
+  text-decoration: none;
+  float: left;
+}
+#login-button {
+  display: block;
+  /* text-align: center; */
+  margin: 100px 90px 10px 120px;
+  width: 40%;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  background-color: #b8900f;
+
+  transition: all 0.3s;
+}
+
+#login-button:hover {
+  background-color: #cece18;
+  box-shadow: 0px 0px 10px rgb(177, 177, 177);
+}
+
+#singup {
+  font-size: larger;
+  font-weight: bold;
+  margin-left: -10px;
+  color: rgb(255, 255, 255);
+  /* width: 10px; */
+}
+#singup > a {
+  text-decoration: none;
+  color: black;
+  background-color: #b8900f;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+
+  transition: all 0.3s;
+}
+
+#singup > a:hover {
+  background-color: #cece18;
+  box-shadow: 0px 0px 10px rgb(170, 170, 170);
+}
