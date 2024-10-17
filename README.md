@@ -18,5 +18,5 @@ Users can input their web data directly through the platform or connect external
 
 - JavaScript
 - HTML5 & CSS3
-- [Add any other relevant technologies]
+- Bootstrap
 
